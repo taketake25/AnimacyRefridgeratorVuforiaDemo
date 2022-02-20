@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AnimacyDemoSystem.unity
+    guid: 4237410cd1a064140b74ca3e2795b3ae
+  m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d25ddc194bb28344eb634e4ddfc464f1, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 49b01d0fe7d96a04cbe3de6f5b7bb0fb, type: 2}

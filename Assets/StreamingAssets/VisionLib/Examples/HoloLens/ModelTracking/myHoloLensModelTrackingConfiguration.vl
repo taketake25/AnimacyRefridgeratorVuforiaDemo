@@ -1,0 +1,40 @@
+{
+    "$schema": "https://docs.visionlib.com/v2.0.0/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "Simple VisionLib Refigerator Tracker for HoloLens",
+        "description": "Simple model tracking configuration file",
+        "author": "Visometry"
+    },
+    "tracker": {
+        "type": "holoLensModelTracker",
+        "version": 1,
+        "parameters": {
+            "modelURI": "project-dir:Models/integrate object v6.obj",
+            "metric": "m",
+            "keyFrameDistance": 50,
+            "laplaceThreshold": 1,
+            "normalThreshold": 0.3,
+            "maxFramesFeaturePrediction": 3,
+            "extendibleTracking": true,
+            "useColor": false,
+            "showLineModelLost": true 
+        }
+    },
+    "input": {
+        "useImageSource": "cameraHoloLens",
+        "imageSources": [
+            {
+                "name": "cameraHoloLens",
+                "type": "camera",
+                "data": {
+                    "undistort": true,
+                    "cameramode": 0,
+                    "useColor": false,
+                    "fieldOfView": "narrow"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<licenses>
+ <license expiredate="15.04.2022" name="Vision" version="2.00" zkey="kwADAgAUkrtttv3pUc+xFsBmHWE1188f15sAFQEUvwtpTZYQq2vGPwXiwJeOE6VN3Q==">
+  <comment>Created by bockholt</comment>
+  <user>
+   <organization>CARE lab in the Nara Institute of Science and Technology</organization>
+   <street>8916-5 Takayama, Ikoma</street>
+   <city>Nara</city>
+   <country>JP</country>
+   <contact>baba.takeru.bm1@is.naist.jp</contact>
+  </user>
+  <hosts>
+   <host id="SE9WmJhNTsu6zLz6phS2MNJxMQw=" name="Dev-Seat" type="seat"/>
+   <host id="faCVym+yX/5/1Hum/t1270lEBpA=" name="PFN" type="bundleid"/>
+  </hosts>
+  <features>
+   <feature name="ANY"/>
+   <feature name="licenseType" value="academicSDK"/>
+   <feature name="feature:NumberOfStartsPerDeployment" value="0"/>
+   <feature name="feature:AllowUnlimitedModels"/>
+   <feature name="feature:AllowUnregisteredModels"/>
+   <feature name="feature:AllowInjectingImage"/>
+   <feature name="feature:AllowDeviceiOS"/>
+   <feature name="feature:AllowDeviceAndroid"/>
+   <feature name="feature:AllowDeviceWindows"/>
+   <feature name="feature:AllowDeviceMacOS"/>
+   <feature name="feature:AllowDeviceUWP"/>
+   <feature name="feature:AllowDeviceHoloLens"/>
+   <feature name="featureBundle:Basic"/>
+  </features>
+ </license>
+</licenses>
